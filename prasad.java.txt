@@ -1,0 +1,25 @@
+package pawan;
+
+public class PalindromeExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		String x="madam";
+		int i=0;  int j=x.length()-1;
+		
+		while(i<j) {
+			if(x.charAt(i) !=x.charAt(j)) {
+				System.out.println("not pailndrome number");
+				System.exit(0);
+				
+			}
+			i++;
+			j--;
+		}
+		System.out.println("pailndrome number");
+
+	}
+
+}
